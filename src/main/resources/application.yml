@@ -1,0 +1,14 @@
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: localhost:9092
+
+  output:
+    ansi:
+      enabled: ALWAYS
+
+  devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true
