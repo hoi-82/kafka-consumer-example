@@ -1,4 +1,4 @@
-##Spring for Apache Kafka Practice
+##Spring for Apache Kafka Consumer Example
 
 - Env: Docker Compose
 - Framework: Srping Boot 3
