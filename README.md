@@ -4,6 +4,9 @@
 - Framework: Srping Boot 3
 
 ---
+[JsonDeserializer Type Mapping 이슈](https://ginger-twister-537.notion.site/Spring-Boot-Kafka-JsonDeserializer-5e562c81dabc4c1f8952e7afe8537329)
+
+---
 docker-compose.yml
 ``` docker-compose.yml
 version: '2' # docker-compose version
