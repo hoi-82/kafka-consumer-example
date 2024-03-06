@@ -4,6 +4,9 @@
 - Framework: Srping Boot 3
 
 ---
+[JsonDeserializer Type Mapping 이슈](https://ginger-twister-537.notion.site/Spring-Boot-Kafka-JsonDeserializer-5e562c81dabc4c1f8952e7afe8537329)
+
+---
 docker-compose.yml
 ``` docker-compose.yml
 version: '2' # docker-compose version
@@ -33,15 +36,5 @@ services:
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
-  redis:
-    image: redis:alpine
-    command: redis-server --port 6379
-    container_name: redis_boot
-    hostname: redis_boot
-    labels:
-      - "name=redis"
-      - "mode=standalone"
-    ports:
-      - 6379:6379
 ```
 
