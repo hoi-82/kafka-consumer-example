@@ -36,15 +36,5 @@ services:
       KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
       KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 0
-  redis:
-    image: redis:alpine
-    command: redis-server --port 6379
-    container_name: redis_boot
-    hostname: redis_boot
-    labels:
-      - "name=redis"
-      - "mode=standalone"
-    ports:
-      - 6379:6379
 ```
 
